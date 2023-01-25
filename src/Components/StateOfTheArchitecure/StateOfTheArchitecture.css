@@ -1,0 +1,35 @@
+.stateOfTheArchitecture{
+    background: url("../../images/bg-pattern-circles.svg");
+    height: 420px; /* You must set a specified height */
+    background-position: -18% 101%;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 600px; /* Resize the background image to cover the entire container */
+    background-color: #3D4061;
+    border-bottom-left-radius: 120px;
+    border-top-right-radius: 120px;
+}
+.stateLeft{
+    position: relative;
+}
+.stateLeft img{
+    position: absolute;
+    top:-66px;
+    left: 25px;
+}
+.stateContentSec{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.stateLeft,.stateRight{
+    width: 45%;
+}
+.stateRight{
+   color: white;
+   padding-top: 160px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+}

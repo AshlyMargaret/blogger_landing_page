@@ -1,0 +1,76 @@
+
+.homeTopBannerSec{
+    background: url("../../images/bg-pattern-intro-desktop.svg");
+    background-color: #FE866E; /* Used if the image is unavailable */
+    height: 400px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    border-bottom-left-radius: 60px;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.bannerText{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.bannerText h1, p{
+    color: white;
+}
+.bannerBtnSec{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+.bannerBtn1,.bannerBtn2{
+    border: none;
+    border: 100px;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.bannerBtn1{
+    background-color: white;
+    color: #FE866E;
+}
+.bannerBtn2{
+    background-color: transparent;
+    border: 1px solid black;
+    color: white;
+}
+.homeMainSecDesignedFor_future{  
+    margin-top: 60px;  
+    background: url("../../images/illustration-editor-desktop.svg");
+    height: 400px; /* You must set a specified height */
+    background-position: 127% -3%;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size:  600px;     
+}
+.homeMainSecDesignedFor_future h1{
+    text-align: center;
+}
+.mainSecLeftSideText{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 60px;
+    padding-top: 138px;
+}
+.mainSecLeftSideText p{
+    width: 600px;
+    color: black;
+}
+.mainSecText1,.mainSecText2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.stateOfThe_architecture{
+    margin-top: 150px;
+}
