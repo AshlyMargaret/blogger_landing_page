@@ -7,29 +7,25 @@
     background-color: #3D4061;
     border-bottom-left-radius: 120px;
     border-top-right-radius: 120px;
+    
 }
-.stateLeft{
+.ImageContainer{
     position: relative;
-}
-.stateLeft img{
-    position: absolute;
-    top:-66px;
-    left: 25px;
+    top: -69px;
+    left: 20px;
 }
 .stateContentSec{
     display: flex;
-    flex-direction: row;
-    gap: 30px;
+    flex-direction: row;   
 }
-.stateLeft,.stateRight{
-    width: 45%;
+
+.stateRight h1{
+    color: white;
 }
-.stateRight{
-   color: white;
-   padding-top: 160px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   gap: 30px;
+.stateContent{
+    padding: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
 }

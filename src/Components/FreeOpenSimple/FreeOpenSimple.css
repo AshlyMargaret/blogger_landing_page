@@ -1,0 +1,29 @@
+.freeOpenSimple{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.freeImg{
+    width: 800px;
+    position: relative;
+    left: -226px;
+}
+.freeSimpleLeft,.freeSimpleRight{
+    width: 50%;
+}
+.freeSimpleRight{
+   padding-right: 60px;
+   
+}
+.freeTopSec,.freeBottomSec{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+}
+.freeSimpleContent{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

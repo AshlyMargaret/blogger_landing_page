@@ -19,7 +19,7 @@
     justify-content: center;
     align-items: center;
 }
-.bannerText h1, p{
+.bannerText h1 {
     color: white;
 }
 .bannerBtnSec{
@@ -73,4 +73,7 @@
 }
 .stateOfThe_architecture{
     margin-top: 150px;
+}
+.freeSectionContent{
+    margin-top: 90px;
 }

@@ -6,6 +6,7 @@
 }
 a{
     text-decoration: none;
+   
     color: white;
 }
 
@@ -53,4 +54,26 @@ li{
 .signUpBtn{
     background-color: white;
     color:  #FF5F61;
+}
+.menuItems{
+    position: relative;
+}
+.dropDown{
+    position: absolute;
+    background-color: white;
+    width: 150px;
+    border-radius: 10px;
+    left: 188px;
+    top: 25px;
+}
+.dropDown ul li a {
+    color: black;
+}
+.dropDownUl{
+   
+    display: flex;
+    flex-direction: column;
+}
+.up{
+    width: 8px;
 }

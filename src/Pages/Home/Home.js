@@ -2,6 +2,8 @@ import React from 'react'
 import './Home.css'
 import Header from '../../Components/Header/Header'
 import StateOfTheArchitecture from '../../Components/StateOfTheArchitecure/StateOfTheArchitecture'
+import FreeOpenSimple from '../../Components/FreeOpenSimple/FreeOpenSimple'
+import Footer from '../../Components/Footer/Footer'
 
 function Home() {
   return (
@@ -35,8 +37,12 @@ function Home() {
       <div className="stateOfThe_architecture">
         <StateOfTheArchitecture/>
       </div>
-      
-
+      <div className="freeSectionContent">
+        <FreeOpenSimple/>
+      </div>
+      <div className="footerComponent">
+        <Footer/>
+      </div>
     </div>
   )
 }
